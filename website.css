@@ -1,0 +1,148 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.sections{
+    height: 100vh;
+}
+#first-page{
+    height: 100%;
+}
+
+
+#top-bar{
+    background-color: rgb(255, 255, 255);
+    height: 10%;
+    display: flex;
+    flex-flow: row nowrap;  
+}
+.firsth-division-logo{
+    height: 100%;
+    width: 10%; 
+}
+.secondh-division-empty{
+    height: 100%;
+    width: 80%;
+}
+.thirdh-division-options{
+    height: 100%;
+    width: 10%;
+    display: flex;
+    flex-flow: row nowrap;
+}
+.division-options-top{
+    height: 100%;
+    width: 50%;
+    flex-shrink: 1;
+}
+#logo{
+    height: 100%;
+    width: 100%;
+}
+.top-bar-images{
+    height: fit-content;
+    width: 100%;
+    padding-top: 15;
+}
+.top-bar-image{
+    height: fit-content;
+    width: 100%;
+    padding-top: 19;
+}
+
+
+#rest-part{
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/background.jfif);
+    background-size: cover;
+    background-position: center;
+    
+}
+.search-part{
+    height: 15%;
+    display: flex;
+    flex-flow: column nowrap;
+}
+.search-text-area{
+    height: 50%;   
+    width: fit-content;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: x-large;
+    color: #f1eded;
+}
+.searching-part{
+    height: 50%;   
+}
+#search{
+    height: 100%;
+    width: 80%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: large;
+    font-style: italic;
+}
+#go-button{
+    height: 100%;
+    width: 18% ;
+}
+
+
+#major-citiesid{
+    height: 20%;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: xx-large;
+    padding-top: 50;
+    color: rgb(98, 106, 112);
+    background-color: rgb(252, 242, 229);
+}
+
+@media (min-width: 1024px) {
+    .firsth-division-logo{
+        height: 100%;
+        width: 6%; 
+    }
+    .secondh-division-empty{
+        height: 100%;
+        width: 82%;
+    }
+}
+@media (max-width: 767px) {
+    /*CSS rules for mobile screens*/
+    .firsth-division-logo{
+        height: 100%;
+        width: 15%; 
+    }
+    .secondh-division-empty{
+        height: 100%;
+        width: 58%;
+    }
+    .thirdh-division-options{
+        height: 100%;
+        width: 27%;
+    }
+    .search-part{
+        height: 17%;
+    }
+    .search-text-area{
+        font-size: larger;
+    }
+    #search{
+        height: 80%;
+        width: 80%;
+        font-size: medium;
+    }
+    #go-button{
+        height: 80%;
+        width: 18% ;
+    }
+    #major-citiesid{
+        height: 20%;
+        font-size: x-large;
+    }
+}

@@ -19,6 +19,9 @@ Or Simply clone the repository to your local machine using command given below.
 * Open the index.html file in your preferred web browser to view the website.
 * Explore the different pages and sections to see the HTML and CSS in action.
 * Feel free to modify the HTML and CSS files to experiment with different designs and layouts.
+
+Designed and developed by SyntaxNova.
+https://github.com/SyntaxNova/website-using-html-and-css
  
 Since this is a frontend-only project, there's no need for complex installation steps. 
 Simply clone the repository to your local machine using the following 

@@ -3,14 +3,14 @@ This repository contains a simple and elegant website created using only HTML an
 The goal of this project was to showcase the design and layout capabilities of HTML 
 and CSS for building a frontend without any backend functionality.
 
-Features
+#Features
 * Responsive layout that adapts to different screen sizes.
 * Clean and minimalistic design for easy navigation and readability.
 * Usage of various HTML elements to structure content effectively.
 * CSS styling for enhancing the visual appeal of the website.
 * No external libraries or frameworks used, just plain HTML and CSS.
 
-##Installation
+#Installation
 
 You can download the repository as a ZIP archive and extract it to your desired location.
 Or Simply clone the repository to your local machine using command given below.

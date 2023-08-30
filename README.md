@@ -1,5 +1,5 @@
 # website-using-html-and-css
-This repository contains a simple and elegant website created using only HTML and CSS.
+*This repository contains a simple and elegant website created using only HTML and CSS.
 The goal of this project was to showcase the design and layout capabilities of HTML 
 and CSS for building a frontend without any backend functionality.
 

@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    color : blue;
 }
 
 .sections{
@@ -143,6 +144,6 @@ body{
     }
     #major-citiesid{
         height: 20%;
-        font-size: x-large;
+        font-size: x-larger;
     }
 }
